@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/img/biblioteca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-cita {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #000000;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    font-size: 1.3rem;
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#cita {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#autor {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#siguiente-cita {
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.1rem;
+    background-color: brown;
+    color: white;
+    transition: padding 0.5s ease-in-out;
+}
+
+#siguiente-cita:hover {
+    padding: 18px 25px;
+}
